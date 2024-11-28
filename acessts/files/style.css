@@ -1,0 +1,63 @@
+.nav::selection{
+    background-color: goldenrod !important; 
+    color: black !important;
+}
+.nav{
+    background-color: black;
+    color: goldenrod;
+    height: 5rem;
+}
+.nav p {
+    line-height: 3rem;
+}
+.choices{
+    height: 280px;
+}
+.choice{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+.choices ::selection{
+    background-color: black;
+    color: goldenrod;
+}
+.choice>div{
+    border-radius: 50%;
+    background-color: goldenrod;
+}
+.paper-back{
+    align-self: last baseline;
+}
+.choice:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.score-board{
+    background-color: black;
+    color: goldenrod;
+    border: 3px solid goldenrod;
+    width: 300px;
+}
+.score-board>div{
+    width: 150px;
+    border: 2px solid goldenrod;
+}
+.score-board ::selection{
+    background-color: goldenrod;
+    color: black;
+}
+.fw-1{
+    font-weight: 500;
+}
+.msg::selection{
+    background-color: black;
+    color: goldenrod;
+}
+.msg{
+    display: inline;
+    background-color: goldenrod;
+    border: 2px solid black;
+    cursor: pointer;
+}
